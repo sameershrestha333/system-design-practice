@@ -2,11 +2,17 @@ package lld.solid.lsp.correct;
 
 
 public class BirdService {
+
+    void feedBird(Bird bird) {
+        bird.eat();
+    }
+
     void makeBirdFly(Flyable flyable) {
         flyable.fly();
     }
 
-    void feedBird(Bird bird) {
-        bird.eat();
+    void makeBirdFeedAndFly(Flyable flyable) {
+        flyable.eat();
+        flyable.fly();
     }
 }
