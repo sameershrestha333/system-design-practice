@@ -1,7 +1,7 @@
 package lld.solid.lsp.correct;
 
 
-public class Parrot implements Flyable {
+public class Parrot implements Flyable, Bird {
 
     @Override
     public void eat() {

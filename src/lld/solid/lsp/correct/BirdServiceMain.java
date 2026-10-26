@@ -11,7 +11,8 @@ public class BirdServiceMain {
         // birdService.makeBirdFly(penguin);
 
         Parrot parrot = new Parrot();
-        birdService.makeBirdFeedAndFly(parrot);
+        birdService.makeBirdFly(parrot);
+        birdService.feedBird(parrot);
 
 
     }

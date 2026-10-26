@@ -1,5 +1,5 @@
 package lld.solid.lsp.correct;
 
-public interface Flyable extends Bird {
+public interface Flyable {
     void fly();
 }

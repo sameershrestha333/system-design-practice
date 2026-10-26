@@ -11,8 +11,5 @@ public class BirdService {
         flyable.fly();
     }
 
-    void makeBirdFeedAndFly(Flyable flyable) {
-        flyable.eat();
-        flyable.fly();
-    }
+
 }
