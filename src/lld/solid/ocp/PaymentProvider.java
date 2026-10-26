@@ -1,5 +1,5 @@
 package lld.solid.ocp;
 
-interface PaymentProvider {
+public interface PaymentProvider {
     void pay(double amount);
 }
