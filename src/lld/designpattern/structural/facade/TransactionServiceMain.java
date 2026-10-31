@@ -1,5 +1,6 @@
 package lld.designpattern.structural.facade;
 
+// Client — assembles and uses the pattern
 public class TransactionServiceMain {
     public static void main(String[] args) {
         String transId = "txn122";

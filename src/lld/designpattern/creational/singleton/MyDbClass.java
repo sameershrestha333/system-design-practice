@@ -1,5 +1,6 @@
 package lld.designpattern.creational.singleton;
 
+// Singleton — provides one shared instance
 public class MyDbClass {
     private static volatile MyDbClass INSTANCE = null;
 

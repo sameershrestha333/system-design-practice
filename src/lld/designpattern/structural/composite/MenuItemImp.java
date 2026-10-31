@@ -2,6 +2,7 @@ package lld.designpattern.structural.composite;
 
 import java.math.BigDecimal;
 
+// Leaf — individual menu item with no children
 public class MenuItemImp implements MenuItem {
     private String name;
     private BigDecimal amount;

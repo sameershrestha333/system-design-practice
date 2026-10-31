@@ -2,6 +2,7 @@ package lld.designpattern.creational.builder;
 
 import java.math.BigDecimal;
 
+// Product — object created by the Builder
 public class PaymentRequest {
     private String transId;
     private BigDecimal amount;
@@ -28,6 +29,7 @@ public class PaymentRequest {
                 .setEbt(isEbt);
     }
 
+    // Builder — collects values, validates, and creates PaymentRequest
     public static class Builder {
         private String transId;
         private BigDecimal amount;

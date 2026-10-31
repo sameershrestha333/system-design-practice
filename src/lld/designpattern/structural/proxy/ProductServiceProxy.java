@@ -3,6 +3,7 @@ package lld.designpattern.structural.proxy;
 import java.util.HashMap;
 import java.util.Map;
 
+// Caching Proxy — returns cached data or delegates to the real service
 public class ProductServiceProxy implements ProductService {
     private final Map<String, Product> cacheMap = new HashMap<>();
     private final ProductService productService;

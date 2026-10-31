@@ -3,6 +3,7 @@ package lld.designpattern.structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
+// Composite — contains items or categories and delegates recursively
 public class MenuCategoryComposite implements MenuItem {
     private String name;
     private List<MenuItem> list;

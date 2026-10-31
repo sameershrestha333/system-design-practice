@@ -1,5 +1,6 @@
 package lld.designpattern.creational.singleton;
 
+// Client — assembles and uses the pattern
 public class MyDbClassMainBillPugh {
     public static void main(String[] args) {
         MyDbClass_Bill_Pugh myDbClass1 = MyDbClass_Bill_Pugh.getInstance();

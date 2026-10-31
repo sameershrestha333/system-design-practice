@@ -6,6 +6,7 @@ import lld.designpattern.creational.factory.withoutfactory.PaymentProcessor;
 
 import java.util.Map;
 
+// Simple Factory / Registry — selects a registered payment processor
 public final class PaymentProcessorFactory {
 
     private static final Map<String, PaymentProcessor> registryMap = Map.of(

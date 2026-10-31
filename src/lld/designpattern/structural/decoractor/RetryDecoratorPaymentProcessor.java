@@ -2,6 +2,7 @@ package lld.designpattern.structural.decoractor;
 
 import lld.designpattern.creational.factory.withoutfactory.PaymentProcessor;
 
+// Concrete Decorator — wraps a processor and adds retry behavior
 public class RetryDecoratorPaymentProcessor implements PaymentProcessor {
 
     private final PaymentProcessor paymentProcessor;

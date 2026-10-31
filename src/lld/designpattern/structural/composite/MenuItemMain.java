@@ -2,6 +2,7 @@ package lld.designpattern.structural.composite;
 
 import java.math.BigDecimal;
 
+// Client — assembles and uses the pattern
 public class MenuItemMain {
 
     public static void main(String[] args) {

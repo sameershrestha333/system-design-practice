@@ -1,5 +1,6 @@
 package lld.designpattern.creational.factory.withoutfactory;
 
+// Client — assembles and uses the pattern
 public class PaymentServiceMain {
 
     public static void main(String[] args) {

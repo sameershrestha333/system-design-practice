@@ -2,6 +2,7 @@ package lld.designpattern.creational.builder;
 
 import java.math.BigDecimal;
 
+// Client — assembles and uses the pattern
 public class PaymentRequestMain {
     public static void main(String[] args) {
         PaymentRequest paymentRequest = new PaymentRequest.Builder()

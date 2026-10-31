@@ -1,5 +1,6 @@
 package lld.designpattern.structural.facade;
 
+// Facade — coordinates checkout behind one simple call
 public class TransactionServiceFacade {
     private final PaymentService paymentService;
     private final SalesService salesService;

@@ -1,5 +1,6 @@
 package lld.designpattern.creational.singleton;
 
+// Client — assembles and uses the pattern
 public class MyDbClassMainWithMultiThreading {
     public static void main(String[] args) {
         Runnable task1 = () -> {

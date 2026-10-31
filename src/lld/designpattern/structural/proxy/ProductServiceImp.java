@@ -2,6 +2,7 @@ package lld.designpattern.structural.proxy;
 
 import java.math.BigDecimal;
 
+// Real Subject — retrieves products from the database
 public class ProductServiceImp implements ProductService {
 
     @Override

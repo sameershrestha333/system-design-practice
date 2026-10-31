@@ -1,5 +1,6 @@
 package lld.designpattern.creational.singleton;
 
+// Client — assembles and uses the pattern
 public class MyDbClassMainNormal {
     public static void main(String[] args) {
         MyDbClass myDbClass1 = MyDbClass.getInstance_normal_thread_unsafe();
